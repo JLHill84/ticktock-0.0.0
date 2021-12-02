@@ -205,14 +205,14 @@ body {
   width: 127px;
   height: 47px;
   background-repeat: no-repeat;
-  background-image: url(/_app/1/sm6/exit-preview-but.png);
+  background-image: url(../_app/1/sm6/exit-preview-but.png);
   background-image: -webkit-image-set(
-    url(/_app/1/sm6/exit-preview-but.png) 1x,
-    url(/_app/1/sm6/exit-preview-but@2x.png) 2x
+    url(../_app/1/sm6/exit-preview-but.png) 1x,
+    url(../_app/1/sm6/exit-preview-but@2x.png) 2x
   );
   background-image: image-set(
-    url(/_app/1/sm6/exit-preview-but.png) 1x,
-    url(/_app/1/sm6/exit-preview-but@2x.png) 2x
+    url(../_app/1/sm6/exit-preview-but.png) 1x,
+    url(../_app/1/sm6/exit-preview-but@2x.png) 2x
   );
 }
 .editmode a {
@@ -415,13 +415,13 @@ body {
   background-color: #f4f4f4;
 }
 .sm-login-popup .fancybox-close {
-  background: url(/_app/1/images/weblogin-sprite.png) no-repeat -124px 4px;
+  background: url(../_app/1/images/weblogin-sprite.png) no-repeat -124px 4px;
   width: 18px;
   height: 19px;
   position: absolute;
   top: 5px;
   right: 10px;
-  behavior: url(/_app/1/sm6/PIE-2.0beta.htc);
+  behavior: url(../_app/1/sm6/PIE-2.0beta.htc);
 }
 .sm-login-popup.nocursor .fancybox-overlay {
   cursor: default;
@@ -484,7 +484,7 @@ body {
   top: 0;
   white-space: nowrap;
   zoom: 1;
-  background-image: url(/sm6/empty.gif) !important;
+  background-image: url(../sm6/empty.gif) !important;
 }
 .horizontal .subMenu {
   left: 0;
@@ -549,7 +549,7 @@ body {
   margin: 0;
 }
 .emptyLink {
-  background-image: url(/sm6/empty.gif);
+  background-image: url(../sm6/empty.gif);
 }
 #free-footer-bar {
   -webkit-border-radius: 7px;
@@ -563,7 +563,7 @@ body {
   text-align: center;
   overflow: hidden;
   -pie-background: rgba(0, 0, 0, 0.4);
-  behavior: url(/_app/1/sm6/PIE-2.0beta.htc);
+  behavior: url(../_app/1/sm6/PIE-2.0beta.htc);
 }
 #free-footer-bar ul {
   margin: 0;
@@ -650,7 +650,7 @@ body {
   -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0 0 13px rgba(0, 0, 0, 0.29);
   box-shadow: 0 0 13px rgba(0, 0, 0, 0.29);
-  behavior: url(/_app/1/sm6/PIE-2.0beta.htc);
+  behavior: url(../_app/1/sm6/PIE-2.0beta.htc);
 }
 #free_share_menu .arrow {
   top: -7px;
@@ -659,7 +659,7 @@ body {
   height: 7px;
   z-index: 11;
   position: absolute;
-  background: url(/_app/1/images/free_share_arrow_icon.png) no-repeat;
+  background: url(../_app/1/images/free_share_arrow_icon.png) no-repeat;
 }
 #free_share_menu ul {
   list-style-type: none;
